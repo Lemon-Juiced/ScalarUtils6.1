@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C",
+    "C#"
+  ],
+  "key": {
+    "#": "minecraft:black_dye",
+    "C": "minecraft:clay_ball"
+  },
+  "result": {
+    "id": "scalarutils:liminal_void",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:chain",
+    "minecraft:chain"
+  ],
+  "result": {
+    "id": "scalarutils:mail",
+    "count": 3
+  }
+}

@@ -1,0 +1,57 @@
+package site.scalarstudios.scalarutils.item;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import site.scalarstudios.scalarutils.ScalarUtils;
+import site.scalarstudios.scalarutils.block.ScalarUtilsBlocks;
+
+public class ScalarUtilsCreativeTabs {
+    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ScalarUtils.MODID);
+
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCALARUTILS_BLOCKS_TAB = CREATIVE_MODE_TABS.register("scalarutils_blocks", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.scalarutils.blocks"))
+            .icon(() -> new ItemStack(ScalarUtilsBlocks.LIMINAL_TILES.get().asItem()))
+            .build());
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCALARUTILS_ITEMS_TAB = CREATIVE_MODE_TABS.register("scalarutils_items", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.scalarutils.items"))
+            .icon(() -> new ItemStack(ScalarUtilsItems.MAIL.get()))
+            .build());
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCALARUTILS_FOOD_TAB = CREATIVE_MODE_TABS.register("scalarutils_food", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.scalarutils.food"))
+            .icon(() -> new ItemStack(ScalarUtilsItems.TOAST.get()))
+            .build());
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCALARUTILS_TOOLS_TAB = CREATIVE_MODE_TABS.register("scalarutils_tools", () -> CreativeModeTab.builder()
+            .title(Component.translatable("itemGroup.scalarutils.tools"))
+            .icon(() -> new ItemStack(ScalarUtilsItems.STORM_HORN.get()))
+            .build());
+
+    public static void registerTabs(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTab() == SCALARUTILS_BLOCKS_TAB.get()) {
+            event.accept(ScalarUtilsBlocks.LIMINAL_TILES.get());
+            event.accept(ScalarUtilsBlocks.BRIGHT_LIMINAL_TILES.get());
+            event.accept(ScalarUtilsBlocks.LIMINAL_VOID.get());
+            event.accept(ScalarUtilsBlocks.BRIGHT_LIMINAL_VOID.get());
+            event.accept(ScalarUtilsBlocks.PENUMBRAL_ORE);
+            event.accept(ScalarUtilsBlocks.UMBRAL_SHARD_BLOCK);
+        } else if (event.getTab() == SCALARUTILS_FOOD_TAB.get()) {
+            event.accept(ScalarUtilsItems.TOAST.get());
+        } else if (event.getTab() == SCALARUTILS_ITEMS_TAB.get()) {
+            event.accept(ScalarUtilsItems.GLUE.get());
+            event.accept(ScalarUtilsItems.FLOUR.get());
+            event.accept(ScalarUtilsItems.MAIL.get());
+            event.accept(ScalarUtilsItems.UMBRAL_SHARD.get());
+        } else if (event.getTab() == SCALARUTILS_TOOLS_TAB.get()) {
+            event.accept(ScalarUtilsItems.STORM_HORN.get());
+        }
+    }
+
+    public static void register(IEventBus eventBus){
+        CREATIVE_MODE_TABS.register(eventBus);
+    }
+}

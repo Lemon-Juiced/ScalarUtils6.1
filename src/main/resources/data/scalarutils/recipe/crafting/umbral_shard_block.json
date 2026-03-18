@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "scalarutils:umbral_shard"
+  },
+  "result": {
+    "id": "scalarutils:umbral_shard_block",
+    "count": 1
+  }
+}

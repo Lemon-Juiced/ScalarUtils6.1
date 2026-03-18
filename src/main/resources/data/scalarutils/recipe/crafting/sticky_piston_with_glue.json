@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:piston",
+    "scalarutils:glue"
+  ],
+  "result": {
+    "id": "minecraft:sticky_piston",
+    "count": 1
+  }
+}

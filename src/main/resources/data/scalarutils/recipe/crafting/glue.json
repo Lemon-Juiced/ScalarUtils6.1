@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "scalarutils:flour"
+  ],
+  "result": {
+    "id": "scalarutils:glue",
+    "count": 1
+  }
+}

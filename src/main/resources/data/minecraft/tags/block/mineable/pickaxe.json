@@ -1,0 +1,11 @@
+{
+  "values": [
+    "scalarutils:liminal_tiles",
+    "scalarutils:bright_liminal_tiles",
+    "scalarutils:liminal_void",
+    "scalarutils:bright_liminal_void",
+    "scalarutils:penumbral_ore",
+    "scalarutils:umbral_shard_block"
+  ],
+  "replace": false
+}

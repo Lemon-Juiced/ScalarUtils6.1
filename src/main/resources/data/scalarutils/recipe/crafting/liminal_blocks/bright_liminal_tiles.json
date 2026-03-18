@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#G#",
+    " # "
+  ],
+  "key": {
+    "#": "scalarutils:liminal_tiles",
+    "G": "minecraft:glowstone"
+  },
+  "result": {
+    "id": "scalarutils:bright_liminal_tiles",
+    "count": 4
+  }
+}

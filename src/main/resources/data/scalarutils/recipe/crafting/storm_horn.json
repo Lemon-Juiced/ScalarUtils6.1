@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GHL"
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "H": "minecraft:goat_horn",
+    "L": "minecraft:gold_nugget"
+  },
+  "result": {
+    "id": "scalarutils:storm_horn",
+    "count": 1
+  }
+}
