@@ -16,3 +16,7 @@ As per usual, this version of Scalar Utils differs from its predecessors revivin
     - **Toast**: A simple food item that is slightly better than bread.
   - Tools:
     - **Storm Horn**: A horn that allows the user to change the weather.
+- Convenient Recipes:
+  - Cobweb: 4 String 
+  - Echo Shard: 8 Sculk + 1 Amethyst Shard
+  - Green Dye: Blue Dye + Yellow Dye

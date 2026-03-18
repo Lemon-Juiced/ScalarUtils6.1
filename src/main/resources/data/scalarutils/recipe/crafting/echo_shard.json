@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SAS",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:sculk",
+    "A": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "minecraft:echo_shard",
+    "count": 1
+  }
+}
