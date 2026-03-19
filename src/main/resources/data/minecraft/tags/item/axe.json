@@ -7,8 +7,7 @@
     "scalarutils:iron_saw",
     "scalarutils:golden_saw",
     "scalarutils:diamond_saw",
-    "scalarutils:netherite_saw",
-    "scalarutils:umbralite_saw"
+    "scalarutils:netherite_saw"
   ],
   "replace": false
 }
