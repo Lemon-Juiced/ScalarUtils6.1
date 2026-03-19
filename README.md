@@ -1,30 +1,34 @@
-# Scalar Utils 6.1 for Minecraft 1.21.1
-***The Revival of Scalar Utils for Minecraft 1.21.1***  
-As per usual, this version of Scalar Utils differs from its predecessors reviving some old favorite ideas and adding some new additions to the mix as well.  
+# Scalar Utils 6.1
+***The Revival of Scalar Utils for Minecraft 1.21.1***
+
+As per usual, this version of Scalar Utils differs from its predecessors reviving some old favorite ideas and adding some new additions to the mix as well.
+
+Scalar Utils 6.1 brings a fresh revival of the classic Scalar Utils experience to Minecraft 1.21.11, blending nostalgic ideas with brand-new content. This update expands your world with unique materials, atmospheric building blocks, and powerful late-game gear, all while keeping the mod’s original spirit intact. Whether you're exploring new ores or crafting advanced equipment, Scalar Utils adds depth without straying too far from vanilla balance.
+
+From eerie liminal-themed blocks to powerful Umbralite upgrades, this version is packed with both aesthetic and functional additions. You’ll find new tools, resources, and quality-of-life recipes that make progression smoother and more rewarding. Scalar Utils 6.1 is designed for players who want more variety, more utility, and a touch of mystery in their Minecraft worlds.
 
 ## Features
-- Blocks:
-  - Building Blocks: 
-    - **Liminal Tiles** & **Bright Liminal Tiles**
-    - **Liminal Void** & **Bright Liminal Void**
-    - **Penumbral Ore** & **Block of Umbral Shard**
-    - **Chelite Ore**, **Depleted Chelite Ore**, **Chelite Block**, & **Block of Raw Chelite**
-    - **Pelagium Ore**, **Depleted Pelagium Ore**, **Pelagium Block**, & **Block of Raw Pelagium**
-- Items: 
-  - **Mail**: Mail that can be used to craft chainmail armor.
-  - **Flour**: Can be smelted to make bread, or used in various crafting recipes.
-  - **Umbralite Smithing Template**: A smithing template used to upgrade Netherite gear to Umbralite gear. (WIP)
-  - **Umbral Shard**: A component in the crafting of Umbralite tools and armor. (WIP)
-  - **Chelite Ingot** & **Raw Chelite**: Components in the crafting of Umbralite tools and armor. (WIP)
-  - **Pelagium Ingot** & **Raw Pelagium**: Components in the crafting of Umbralite tools and armor. (WIP)
-  - Food Items:
-    - **Toast**: A simple food item that is slightly better than bread.
-  - Tools:
-    - **Umbralite Tools**: A set of tools that are better than Netherite tools.
-    - **Saws**: An axe-like tool that has 5x durability but no extra damage.
-    - **Storm Horn**: A horn that allows the user to change the weather.
-    - **Eclipse Bell**: A relic bell that toggles time between day and night.
-- Convenient Recipes:
-  - Cobweb: 4 String 
-  - Echo Shard: 8 Sculk + 1 Amethyst Shard
-  - Green Dye: Blue Dye + Yellow Dye
+
+### New Blocks & Materials
+- Liminal Tiles, Bright Liminal variants, and Void blocks
+- Chelite & Pelagium ore tiers (with raw, depleted, and block forms)
+- Penumbral Ore and Umbral Shard storage blocks
+
+### Gear & Progression
+- Umbralite Tools (upgrade from Netherite)
+- New smithing template and crafting components
+- Mail item for crafting chainmail armor
+
+### Utility Items
+- Storm Horn to control weather
+- Eclipse Bell to switch between day and night
+- Saws with high durability for long-term use
+
+### Food & Resources
+- Flour (multi-purpose crafting + baking)
+- Toast as an early-game food upgrade
+
+### Quality of Life Recipes
+- Easier crafting for Cobwebs, Echo Shards, and Green Dye
+
+Jump into Scalar Utils 6.1 and rediscover a familiar mod—rebuilt with new ideas and expanded possibilities.
