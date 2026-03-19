@@ -3,12 +3,12 @@
   "category": "equipment",
   "pattern": [
     "///",
-    "X#/",
+    "#X/",
     "   "
   ],
   "key": {
-    "X": "#minecraft:logs",
-    "#": "#minecraft:wooden_tool_materials",
+    "X": "#minecraft:wooden_tool_materials",
+    "#": "#minecraft:logs",
     "/": "minecraft:stick"
   },
   "result": {

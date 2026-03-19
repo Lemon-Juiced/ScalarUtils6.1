@@ -41,6 +41,16 @@
   "block.scalarutils.penumbral_ore": "Penumbral Ore",
   "block.scalarutils.umbral_shard_block": "Block of Umbral Shard",
 
+  "block.scalarutils.chelite_ore": "Chelite Ore",
+  "block.scalarutils.deepslate_chelite_ore": "Deepslate Chelite Ore",
+  "block.scalarutils.chelite_block": "Chelite Block",
+  "block.scalarutils.raw_chelite_block": "Block of Raw Chelite",
+
+  "block.scalarutils.pelagium_ore": "Pelagium Ore",
+  "block.scalarutils.deepslate_pelagium_ore": "Deepslate Pelagium Ore",
+  "block.scalarutils.pelagium_block": "Pelagium Block",
+  "block.scalarutils.raw_pelagium_block": "Block of Raw Pelagium",
+
   "tooltip.scalarutils.glue": "Slimeball Alternative",
   "tooltip.scalarutils.storm_horn.primary": "Right-click: Toggle Clear/Rain",
   "tooltip.scalarutils.storm_horn.secondary": "Shift + Right-click: Thunder",

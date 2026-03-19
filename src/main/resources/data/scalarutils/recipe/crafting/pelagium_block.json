@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "scalarutils:pelagium_ingot"
+  },
+  "result": {
+    "id": "scalarutils:pelagium_block",
+    "count": 1
+  }
+}

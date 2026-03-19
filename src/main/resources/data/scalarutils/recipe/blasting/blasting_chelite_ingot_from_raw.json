@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "scalarutils:raw_chelite",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "result": {
+    "id": "scalarutils:chelite_ingot"
+  }
+}
