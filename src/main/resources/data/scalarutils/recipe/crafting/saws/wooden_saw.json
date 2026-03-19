@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "///",
+    "X#/",
+    "   "
+  ],
+  "key": {
+    "X": "#minecraft:logs",
+    "#": "#minecraft:wooden_tool_materials",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "scalarutils:wooden_saw",
+    "count": 1
+  }
+}
+

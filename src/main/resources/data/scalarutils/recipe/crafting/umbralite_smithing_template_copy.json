@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": "#c:gems/diamond",
+    "C": "scalarutils:umbral_shard",
+    "S": "scalarutils:umbralite_smithing_template"
+  },
+  "result": {
+    "id": "scalarutils:umbralite_smithing_template",
+    "count": 2
+  }
+}
+

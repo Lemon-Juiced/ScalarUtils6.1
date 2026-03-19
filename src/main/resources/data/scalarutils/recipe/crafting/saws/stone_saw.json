@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "///",
+    "X#/",
+    "   "
+  ],
+  "key": {
+    "X": "minecraft:stone",
+    "#": "#minecraft:stone_tool_materials",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "scalarutils:stone_saw",
+    "count": 1
+  }
+}
+

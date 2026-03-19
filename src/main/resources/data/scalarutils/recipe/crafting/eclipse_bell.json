@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " U ",
+    "UCU",
+    " B "
+  ],
+  "key": {
+    "U": "scalarutils:umbral_shard",
+    "C": "minecraft:clock",
+    "B": "minecraft:bell"
+  },
+  "result": {
+    "id": "scalarutils:eclipse_bell",
+    "count": 1
+  }
+}
+

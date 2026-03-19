@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "///",
+    "X#/",
+    "   "
+  ],
+  "key": {
+    "X": "minecraft:diamond",
+    "#": "minecraft:diamond_block",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "scalarutils:diamond_saw",
+    "count": 1
+  }
+}
+

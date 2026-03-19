@@ -8,14 +8,22 @@ As per usual, this version of Scalar Utils differs from its predecessors revivin
     - **Liminal Tiles** & **Bright Liminal Tiles**
     - **Liminal Void** & **Bright Liminal Void**
     - **Penumbral Ore** & **Block of Umbral Shard**
+    - **Chelite Ore**, **Depleted Chelite Ore**, **Chelite Block**, & **Block of Raw Chelite**
+    - **Pelagium Ore**, **Depleted Pelagium Ore**, **Pelagium Block**, & **Block of Raw Pelagium**
 - Items: 
   - **Mail**: Mail that can be used to craft chainmail armor.
   - **Flour**: Can be smelted to make bread, or used in various crafting recipes.
+  - **Umbralite Smithing Template**: A smithing template used to upgrade Netherite gear to Umbralite gear. (WIP)
   - **Umbral Shard**: A component in the crafting of Umbralite tools and armor. (WIP)
+  - **Chelite Ingot** & **Raw Chelite**: Components in the crafting of Umbralite tools and armor. (WIP)
+  - **Pelagium Ingot** & **Raw Pelagium**: Components in the crafting of Umbralite tools and armor. (WIP)
   - Food Items:
     - **Toast**: A simple food item that is slightly better than bread.
   - Tools:
+    - **Umbralite Tools**: A set of tools that are better than Netherite tools.
+    - **Saws**: An axe-like tool that has 5x durability but no extra damage.
     - **Storm Horn**: A horn that allows the user to change the weather.
+    - **Eclipse Bell**: A relic bell that toggles time between day and night.
 - Convenient Recipes:
   - Cobweb: 4 String 
   - Echo Shard: 8 Sculk + 1 Amethyst Shard
