@@ -1,0 +1,12 @@
+{
+  "values": [
+    "scalarutils:wooden_saw",
+    "scalarutils:stone_saw",
+    "scalarutils:copper_saw",
+    "scalarutils:iron_saw",
+    "scalarutils:golden_saw",
+    "scalarutils:diamond_saw",
+    "scalarutils:netherite_saw"
+  ],
+  "replace": false
+}

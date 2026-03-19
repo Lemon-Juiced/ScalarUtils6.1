@@ -15,7 +15,9 @@ As per usual, this version of Scalar Utils differs from its predecessors revivin
   - Food Items:
     - **Toast**: A simple food item that is slightly better than bread.
   - Tools:
+    - **Saws**: An axe-like tool that has 5x durability but no extra damage.
     - **Storm Horn**: A horn that allows the user to change the weather.
+    - **Eclipse Bell**: A relic bell that toggles time between day and night.
 - Convenient Recipes:
   - Cobweb: 4 String 
   - Echo Shard: 8 Sculk + 1 Amethyst Shard

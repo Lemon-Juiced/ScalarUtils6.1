@@ -1,10 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "GHL"
+    " G ",
+    "UHU",
+    " L "
   ],
   "key": {
     "G": "minecraft:gold_ingot",
+    "U": "scalarutils:umbral_shard",
     "H": "minecraft:goat_horn",
     "L": "minecraft:gold_nugget"
   },

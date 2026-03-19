@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "///",
+    "X#/",
+    "   "
+  ],
+  "key": {
+    "X": "minecraft:gold_ingot",
+    "#": "minecraft:gold_block",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "scalarutils:golden_saw",
+    "count": 1
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "scalarutils:diamond_saw",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "scalarutils:netherite_saw"
+  }
+}
+

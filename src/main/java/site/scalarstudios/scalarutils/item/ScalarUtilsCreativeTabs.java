@@ -47,7 +47,15 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsItems.MAIL.get());
             event.accept(ScalarUtilsItems.UMBRAL_SHARD.get());
         } else if (event.getTab() == SCALARUTILS_TOOLS_TAB.get()) {
+            event.accept(ScalarUtilsItems.WOODEN_SAW.get());
+            event.accept(ScalarUtilsItems.STONE_SAW.get());
+            event.accept(ScalarUtilsItems.COPPER_SAW.get());
+            event.accept(ScalarUtilsItems.IRON_SAW.get());
+            event.accept(ScalarUtilsItems.GOLDEN_SAW.get());
+            event.accept(ScalarUtilsItems.DIAMOND_SAW.get());
+            event.accept(ScalarUtilsItems.NETHERITE_SAW.get());
             event.accept(ScalarUtilsItems.STORM_HORN.get());
+            event.accept(ScalarUtilsItems.ECLIPSE_BELL.get());
         }
     }
 

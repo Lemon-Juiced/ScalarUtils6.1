@@ -12,6 +12,14 @@
   "item.scalarutils.toast": "Toast",
 
   "item.scalarutils.storm_horn": "Storm Horn",
+  "item.scalarutils.wooden_saw": "Wooden Saw",
+  "item.scalarutils.stone_saw": "Stone Saw",
+  "item.scalarutils.iron_saw": "Iron Saw",
+  "item.scalarutils.golden_saw": "Golden Saw",
+  "item.scalarutils.diamond_saw": "Diamond Saw",
+  "item.scalarutils.netherite_saw": "Netherite Saw",
+  "item.scalarutils.copper_saw": "Copper Saw",
+  "item.scalarutils.eclipse_bell": "Eclipse Bell",
 
   "block.scalarutils.liminal_tiles": "Liminal Tiles",
   "block.scalarutils.bright_liminal_tiles": "Bright Liminal Tiles",
@@ -23,10 +31,15 @@
   "tooltip.scalarutils.glue": "Slimeball Alternative",
   "tooltip.scalarutils.storm_horn.primary": "Right-click: Toggle Clear/Rain",
   "tooltip.scalarutils.storm_horn.secondary": "Shift + Right-click: Thunder",
+  "tooltip.scalarutils.eclipse_bell.primary": "Right-click: Toggle Day/Night",
 
   "message.scalarutils.storm_horn.clear": "Weather set to Clear",
   "message.scalarutils.storm_horn.rain": "Weather set to Rain",
   "message.scalarutils.storm_horn.thunder": "Weather set to Thunder",
   "message.scalarutils.storm_horn.cooldown": "Storm Horn is recharging",
-  "message.scalarutils.storm_horn.invalid_dimension": "Storm Horn only works in the Overworld"
+  "message.scalarutils.storm_horn.invalid_dimension": "Storm Horn only works in the Overworld",
+  "message.scalarutils.eclipse_bell.day": "Time set to Day",
+  "message.scalarutils.eclipse_bell.night": "Time set to Night",
+  "message.scalarutils.eclipse_bell.cooldown": "Eclipse Bell is recharging",
+  "message.scalarutils.eclipse_bell.invalid_dimension": "Eclipse Bell only works where time passes"
 }

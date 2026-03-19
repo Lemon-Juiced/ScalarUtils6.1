@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "///",
+    "X#/",
+    "   "
+  ],
+  "key": {
+    "X": "minecraft:copper_ingot",
+    "#": "minecraft:copper_block",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "scalarutils:copper_saw",
+    "count": 1
+  }
+}
+
