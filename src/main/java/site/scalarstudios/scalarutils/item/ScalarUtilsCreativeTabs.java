@@ -39,6 +39,7 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsBlocks.BRIGHT_LIMINAL_VOID.get());
             event.accept(ScalarUtilsBlocks.PENUMBRAL_ORE.get());
             event.accept(ScalarUtilsBlocks.UMBRAL_SHARD_BLOCK.get());
+            event.accept(ScalarUtilsBlocks.UMBRALITE_BLOCK.get());
             event.accept(ScalarUtilsBlocks.CHELITE_ORE.get());
             event.accept(ScalarUtilsBlocks.DEEPSLATE_CHELITE_ORE.get());
             event.accept(ScalarUtilsBlocks.CHELITE_BLOCK.get());
@@ -59,6 +60,8 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsItems.RAW_CHELITE.get());
             event.accept(ScalarUtilsItems.PELAGIUM_INGOT.get());
             event.accept(ScalarUtilsItems.RAW_PELAGIUM.get());
+            event.accept(ScalarUtilsItems.TESTUDINE_INGOT.get());
+            event.accept(ScalarUtilsItems.UMBRALITE_INGOT.get());
         } else if (event.getTab() == SCALARUTILS_TOOLS_TAB.get()) {
             event.accept(ScalarUtilsItems.UMBRALITE_SWORD.get());
             event.accept(ScalarUtilsItems.UMBRALITE_PICKAXE.get());

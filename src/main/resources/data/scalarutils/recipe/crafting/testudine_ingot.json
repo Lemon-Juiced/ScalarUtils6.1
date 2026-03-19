@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "scalarutils:chelite_ingot",
+    "scalarutils:pelagium_ingot"
+  ],
+  "result": {
+    "id": "scalarutils:testudine_ingot",
+    "count": 2
+  }
+}

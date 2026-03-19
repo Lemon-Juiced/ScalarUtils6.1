@@ -2,7 +2,7 @@
   "type": "minecraft:smithing_transform",
   "template": "scalarutils:umbralite_smithing_template",
   "base": "scalarutils:netherite_saw",
-  "addition": "scalarutils:umbral_shard",
+  "addition": "scalarutils:umbralite_ingot",
   "result": {
     "id": "scalarutils:umbralite_saw"
   }

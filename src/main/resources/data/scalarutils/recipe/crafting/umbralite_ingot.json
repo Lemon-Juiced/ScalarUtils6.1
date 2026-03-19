@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#T#",
+    "###"
+  ],
+  "key": {
+    "#": "scalarutils:umbral_shard",
+    "T": "scalarutils:testudine_ingot"
+  },
+  "result": {
+    "id": "scalarutils:umbralite_ingot",
+    "count": 1
+  }
+}

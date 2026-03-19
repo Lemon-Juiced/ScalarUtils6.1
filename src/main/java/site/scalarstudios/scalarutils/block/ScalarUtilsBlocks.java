@@ -41,7 +41,8 @@ public class ScalarUtilsBlocks {
     // Penumbral Ore + Umbral Blocks
     public static final DeferredBlock<Block> PENUMBRAL_ORE = registerBlock("penumbral_ore", properties -> properties.strength(30.0F, 1200.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 5).mapColor(MapColor.SAND));
     public static final DeferredBlock<Block> UMBRAL_SHARD_BLOCK = registerBlock("umbral_shard_block", properties -> properties.strength(50.0F, 1200.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 5).mapColor(MapColor.COLOR_PURPLE));
-    
+    public static final DeferredBlock<Block> UMBRALITE_BLOCK = registerBlock("umbralite_block", properties -> properties.strength(50.0F, 1200.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 5).mapColor(MapColor.COLOR_PURPLE));
+
     private static DeferredBlock<Block> registerBlock(String name, UnaryOperator<BlockBehaviour.Properties> properties) {
         return registerBlock(name, Block::new, properties);
     }

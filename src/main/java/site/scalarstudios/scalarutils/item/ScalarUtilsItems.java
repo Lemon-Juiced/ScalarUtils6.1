@@ -32,6 +32,8 @@ public class ScalarUtilsItems {
     public static final DeferredItem<Item> RAW_CHELITE = ITEMS.registerSimpleItem("raw_chelite");
     public static final DeferredItem<Item> PELAGIUM_INGOT = ITEMS.registerSimpleItem("pelagium_ingot");
     public static final DeferredItem<Item> RAW_PELAGIUM = ITEMS.registerSimpleItem("raw_pelagium");
+    public static final DeferredItem<Item> TESTUDINE_INGOT = ITEMS.registerSimpleItem("testudine_ingot");
+    public static final DeferredItem<Item> UMBRALITE_INGOT = ITEMS.registerSimpleItem("umbralite_ingot");
 
     /* Food Items */
     public static final DeferredItem<Item> TOAST = ITEMS.registerSimpleItem("toast", p -> p.food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.0F).build()));

@@ -18,8 +18,8 @@ public final class ScalarToolMaterials {
     public static final ToolMaterial UMBRALITE = new ToolMaterial(
             BlockTags.INCORRECT_FOR_NETHERITE_TOOL,
             8124,
-            9.0F,
-            4.0F,
+            10.0F,
+            6.0F,
             20,
             REPAIRS_UMBRALITE_TOOL_MATERIAL
     );

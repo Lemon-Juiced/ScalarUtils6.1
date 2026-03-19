@@ -13,6 +13,8 @@
   "item.scalarutils.raw_chelite": "Raw Chelite",
   "item.scalarutils.pelagium_ingot": "Pelagium Ingot",
   "item.scalarutils.raw_pelagium": "Raw Pelagium",
+  "item.scalarutils.testudine_ingot": "Testudine Ingot",
+  "item.scalarutils.umbralite_ingot": "Umbralite Ingot",
 
   "item.scalarutils.toast": "Toast",
 
@@ -40,6 +42,7 @@
   "block.scalarutils.bright_liminal_void": "Bright Liminal Void",
   "block.scalarutils.penumbral_ore": "Penumbral Ore",
   "block.scalarutils.umbral_shard_block": "Block of Umbral Shard",
+  "block.scalarutils.umbralite_block": "Umbralite Block",
 
   "block.scalarutils.chelite_ore": "Chelite Ore",
   "block.scalarutils.deepslate_chelite_ore": "Deepslate Chelite Ore",
