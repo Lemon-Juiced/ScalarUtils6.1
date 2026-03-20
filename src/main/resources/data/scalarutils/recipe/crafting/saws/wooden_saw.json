@@ -7,8 +7,8 @@
     "   "
   ],
   "key": {
-    "X": "#minecraft:wooden_tool_materials",
-    "#": "#minecraft:logs",
+    "#": "#minecraft:wooden_tool_materials",
+    "X": "#minecraft:logs",
     "/": "minecraft:stick"
   },
   "result": {

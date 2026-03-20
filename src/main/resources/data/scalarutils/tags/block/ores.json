@@ -1,7 +1,7 @@
 {
   "values": [
-    "#c:ores/chelite",
-    "#c:ores/pelagium",
-    "#c:ores/penumbral"
+    "#scalarutils:ores/chelite",
+    "#scalarutils:ores/pelagium",
+    "#scalarutils:ores/penumbral"
   ]
 }
