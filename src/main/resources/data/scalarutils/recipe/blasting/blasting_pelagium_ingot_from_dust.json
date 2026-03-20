@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "#c:dusts/pelagium",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "result": {
+    "id": "scalarutils:pelagium_ingot"
+  }
+}

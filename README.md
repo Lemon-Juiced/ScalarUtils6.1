@@ -25,6 +25,7 @@ From eerie liminal-themed blocks to powerful Umbralite upgrades, this version is
 - Saws with high durability for long-term use
 
 ### Food & Resources
+- Boiled Eggs as a new food source
 - Flour (multi-purpose crafting + baking)
 - Toast as an early-game food upgrade
 

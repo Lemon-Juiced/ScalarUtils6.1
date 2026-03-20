@@ -21,22 +21,25 @@ public class ScalarUtilsItems {
 
     // Items
     /* Crafting Items */
-    public static final DeferredItem<GlueItem> GLUE = ITEMS.registerItem("glue", GlueItem::new);
     public static final DeferredItem<Item> FLOUR = ITEMS.registerSimpleItem("flour");
+    public static final DeferredItem<GlueItem> GLUE = ITEMS.registerItem("glue", GlueItem::new);
     public static final DeferredItem<Item> MAIL = ITEMS.registerSimpleItem("mail");
     public static final DeferredItem<Item> UMBRALITE_SMITHING_TEMPLATE = ITEMS.registerSimpleItem("umbralite_smithing_template");
 
     /* Resources */
-    public static final DeferredItem<Item> UMBRAL_SHARD = ITEMS.registerSimpleItem("umbral_shard");
-    public static final DeferredItem<Item> CHELITE_INGOT = ITEMS.registerSimpleItem("chelite_ingot");
     public static final DeferredItem<Item> RAW_CHELITE = ITEMS.registerSimpleItem("raw_chelite");
-    public static final DeferredItem<Item> PELAGIUM_INGOT = ITEMS.registerSimpleItem("pelagium_ingot");
     public static final DeferredItem<Item> RAW_PELAGIUM = ITEMS.registerSimpleItem("raw_pelagium");
+    public static final DeferredItem<Item> CHELITE_INGOT = ITEMS.registerSimpleItem("chelite_ingot");
+    public static final DeferredItem<Item> PELAGIUM_INGOT = ITEMS.registerSimpleItem("pelagium_ingot");
     public static final DeferredItem<Item> TESTUDINE_INGOT = ITEMS.registerSimpleItem("testudine_ingot");
     public static final DeferredItem<Item> UMBRALITE_INGOT = ITEMS.registerSimpleItem("umbralite_ingot");
+    public static final DeferredItem<Item> UMBRAL_SHARD = ITEMS.registerSimpleItem("umbral_shard");
+    public static final DeferredItem<Item> CHELITE_DUST = ITEMS.registerSimpleItem("chelite_dust"); // This is for cross-mod integration
+    public static final DeferredItem<Item> PELAGIUM_DUST = ITEMS.registerSimpleItem("pelagium_dust"); // This is for cross-mod integration
 
     /* Food Items */
-    public static final DeferredItem<Item> TOAST = ITEMS.registerSimpleItem("toast", p -> p.food(new FoodProperties.Builder().nutrition(8).saturationModifier(1.0F).build()));
+    public static final DeferredItem<Item> BOILED_EGG = ITEMS.registerSimpleItem("boiled_egg", p -> p.food(new FoodProperties.Builder().nutrition(4).saturationModifier(0.5F).build()));
+    public static final DeferredItem<Item> TOAST = ITEMS.registerSimpleItem("toast", p -> p.food(new FoodProperties.Builder().nutrition(8).saturationModifier(0.8F).build()));
 
     // Tools
     /* Umbralite Suite */
@@ -58,8 +61,8 @@ public class ScalarUtilsItems {
     public static final DeferredItem<SawItem> UMBRALITE_SAW = ITEMS.registerItem("umbralite_saw", p -> new SawItem(ScalarToolMaterials.UMBRALITE, -3.0F, p.fireResistant()));
 
     /* Unique Tools */
-    public static final DeferredItem<StormHornItem> STORM_HORN = ITEMS.registerItem("storm_horn", StormHornItem::new);
     public static final DeferredItem<EclipseBellItem> ECLIPSE_BELL = ITEMS.registerItem("eclipse_bell", EclipseBellItem::new);
+    public static final DeferredItem<StormHornItem> STORM_HORN = ITEMS.registerItem("storm_horn", StormHornItem::new);
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

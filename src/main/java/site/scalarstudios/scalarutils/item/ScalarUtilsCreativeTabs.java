@@ -20,15 +20,15 @@ public class ScalarUtilsCreativeTabs {
             .build());
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCALARUTILS_ITEMS_TAB = CREATIVE_MODE_TABS.register("scalarutils_items", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.scalarutils.items"))
-            .icon(() -> new ItemStack(ScalarUtilsItems.MAIL.get()))
+            .icon(() -> new ItemStack(ScalarUtilsItems.FLOUR.get()))
             .build());
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCALARUTILS_FOOD_TAB = CREATIVE_MODE_TABS.register("scalarutils_food", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.scalarutils.food"))
-            .icon(() -> new ItemStack(ScalarUtilsItems.TOAST.get()))
+            .icon(() -> new ItemStack(ScalarUtilsItems.BOILED_EGG.get()))
             .build());
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SCALARUTILS_TOOLS_TAB = CREATIVE_MODE_TABS.register("scalarutils_tools", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.scalarutils.tools"))
-            .icon(() -> new ItemStack(ScalarUtilsItems.STORM_HORN.get()))
+            .icon(() -> new ItemStack(ScalarUtilsItems.ECLIPSE_BELL.get()))
             .build());
 
     public static void registerTabs(BuildCreativeModeTabContentsEvent event) {
@@ -37,31 +37,34 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsBlocks.BRIGHT_LIMINAL_TILES.get());
             event.accept(ScalarUtilsBlocks.LIMINAL_VOID.get());
             event.accept(ScalarUtilsBlocks.BRIGHT_LIMINAL_VOID.get());
-            event.accept(ScalarUtilsBlocks.PENUMBRAL_ORE.get());
-            event.accept(ScalarUtilsBlocks.UMBRAL_SHARD_BLOCK.get());
+            event.accept(ScalarUtilsBlocks.CHELITE_BLOCK.get());
+            event.accept(ScalarUtilsBlocks.PELAGIUM_BLOCK.get());
             event.accept(ScalarUtilsBlocks.UMBRALITE_BLOCK.get());
+            event.accept(ScalarUtilsBlocks.UMBRAL_SHARD_BLOCK.get());
             event.accept(ScalarUtilsBlocks.CHELITE_ORE.get());
             event.accept(ScalarUtilsBlocks.DEEPSLATE_CHELITE_ORE.get());
-            event.accept(ScalarUtilsBlocks.CHELITE_BLOCK.get());
-            event.accept(ScalarUtilsBlocks.RAW_CHELITE_BLOCK.get());
             event.accept(ScalarUtilsBlocks.PELAGIUM_ORE.get());
             event.accept(ScalarUtilsBlocks.DEEPSLATE_PELAGIUM_ORE.get());
-            event.accept(ScalarUtilsBlocks.PELAGIUM_BLOCK.get());
+            event.accept(ScalarUtilsBlocks.PENUMBRAL_ORE.get());
+            event.accept(ScalarUtilsBlocks.RAW_CHELITE_BLOCK.get());
             event.accept(ScalarUtilsBlocks.RAW_PELAGIUM_BLOCK.get());
         } else if (event.getTab() == SCALARUTILS_FOOD_TAB.get()) {
+            event.accept(ScalarUtilsItems.BOILED_EGG.get());
             event.accept(ScalarUtilsItems.TOAST.get());
         } else if (event.getTab() == SCALARUTILS_ITEMS_TAB.get()) {
-            event.accept(ScalarUtilsItems.GLUE.get());
             event.accept(ScalarUtilsItems.FLOUR.get());
+            event.accept(ScalarUtilsItems.GLUE.get());
             event.accept(ScalarUtilsItems.MAIL.get());
             event.accept(ScalarUtilsItems.UMBRALITE_SMITHING_TEMPLATE.get());
-            event.accept(ScalarUtilsItems.UMBRAL_SHARD.get());
-            event.accept(ScalarUtilsItems.CHELITE_INGOT.get());
             event.accept(ScalarUtilsItems.RAW_CHELITE.get());
-            event.accept(ScalarUtilsItems.PELAGIUM_INGOT.get());
             event.accept(ScalarUtilsItems.RAW_PELAGIUM.get());
+            event.accept(ScalarUtilsItems.CHELITE_INGOT.get());
+            event.accept(ScalarUtilsItems.PELAGIUM_INGOT.get());
             event.accept(ScalarUtilsItems.TESTUDINE_INGOT.get());
             event.accept(ScalarUtilsItems.UMBRALITE_INGOT.get());
+            event.accept(ScalarUtilsItems.UMBRAL_SHARD.get());
+            event.accept(ScalarUtilsItems.CHELITE_DUST.get());
+            event.accept(ScalarUtilsItems.PELAGIUM_DUST.get());
         } else if (event.getTab() == SCALARUTILS_TOOLS_TAB.get()) {
             event.accept(ScalarUtilsItems.UMBRALITE_SWORD.get());
             event.accept(ScalarUtilsItems.UMBRALITE_PICKAXE.get());
