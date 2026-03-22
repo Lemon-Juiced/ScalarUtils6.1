@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "scalarutils:block/dusk_stone",
+    "top": "scalarutils:block/dusk_stone",
+    "side": "scalarutils:block/dusk_stone"
+  }
+}
+

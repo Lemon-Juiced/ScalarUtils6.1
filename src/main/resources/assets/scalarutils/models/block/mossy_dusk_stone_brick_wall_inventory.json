@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "scalarutils:block/mossy_dusk_stone_bricks"
+  }
+}
+

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "scalarutils:mossy_dusk_stone_bricks",
+  "result": {
+    "id": "scalarutils:mossy_dusk_stone_brick_stairs",
+    "count": 1
+  }
+}
+

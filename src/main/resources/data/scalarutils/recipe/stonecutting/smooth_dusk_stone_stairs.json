@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "scalarutils:smooth_dusk_stone",
+  "result": {
+    "id": "scalarutils:smooth_dusk_stone_stairs",
+    "count": 1
+  }
+}
+

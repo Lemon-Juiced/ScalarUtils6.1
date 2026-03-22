@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "scalarutils:dusk_stone_bricks",
+  "result": {
+    "id": "scalarutils:chiseled_dusk_stone_bricks",
+    "count": 1
+  }
+}
+

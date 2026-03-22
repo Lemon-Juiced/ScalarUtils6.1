@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "scalarutils:block/smooth_dusk_stone",
+    "top": "scalarutils:block/smooth_dusk_stone",
+    "side": "scalarutils:block/smooth_dusk_stone_slab_side"
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "scalarutils:dusk_stone_bricks"
+  },
+  "result": {
+    "id": "scalarutils:dusk_stone_brick_slab",
+    "count": 6
+  }
+}
+

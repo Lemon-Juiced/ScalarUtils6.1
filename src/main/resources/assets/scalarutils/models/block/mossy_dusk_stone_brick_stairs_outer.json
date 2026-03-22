@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "scalarutils:block/mossy_dusk_stone_bricks",
+    "top": "scalarutils:block/mossy_dusk_stone_bricks",
+    "side": "scalarutils:block/mossy_dusk_stone_bricks"
+  }
+}
+

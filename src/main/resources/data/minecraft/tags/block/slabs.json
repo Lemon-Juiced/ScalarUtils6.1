@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "scalarutils:dusk_stone_slab",
+    "scalarutils:smooth_dusk_stone_slab",
+    "scalarutils:dusk_stone_brick_slab",
+    "scalarutils:mossy_dusk_stone_brick_slab"
+  ]
+}
+

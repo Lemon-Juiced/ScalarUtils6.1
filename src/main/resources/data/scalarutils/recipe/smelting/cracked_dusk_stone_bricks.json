@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": "scalarutils:dusk_stone_bricks",
+  "result": {
+    "id": "scalarutils:cracked_dusk_stone_bricks"
+  }
+}
+

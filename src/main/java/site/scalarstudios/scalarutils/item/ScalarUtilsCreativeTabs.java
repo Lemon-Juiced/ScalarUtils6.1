@@ -33,6 +33,22 @@ public class ScalarUtilsCreativeTabs {
 
     public static void registerTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTab() == SCALARUTILS_BLOCKS_TAB.get()) {
+            event.accept(ScalarUtilsBlocks.DUSK_STONE.get());
+            event.accept(ScalarUtilsBlocks.SMOOTH_DUSK_STONE.get());
+            event.accept(ScalarUtilsBlocks.DUSK_STONE_SLAB.get());
+            event.accept(ScalarUtilsBlocks.SMOOTH_DUSK_STONE_SLAB.get());
+            event.accept(ScalarUtilsBlocks.DUSK_STONE_STAIRS.get());
+            event.accept(ScalarUtilsBlocks.SMOOTH_DUSK_STONE_STAIRS.get());
+            event.accept(ScalarUtilsBlocks.DUSK_STONE_BRICKS.get());
+            event.accept(ScalarUtilsBlocks.DUSK_STONE_BRICK_SLAB.get());
+            event.accept(ScalarUtilsBlocks.DUSK_STONE_BRICK_STAIRS.get());
+            event.accept(ScalarUtilsBlocks.DUSK_STONE_BRICK_WALL.get());
+            event.accept(ScalarUtilsBlocks.CHISELED_DUSK_STONE_BRICKS.get());
+            event.accept(ScalarUtilsBlocks.CRACKED_DUSK_STONE_BRICKS.get());
+            event.accept(ScalarUtilsBlocks.MOSSY_DUSK_STONE_BRICKS.get());
+            event.accept(ScalarUtilsBlocks.MOSSY_DUSK_STONE_BRICK_SLAB.get());
+            event.accept(ScalarUtilsBlocks.MOSSY_DUSK_STONE_BRICK_STAIRS.get());
+            event.accept(ScalarUtilsBlocks.MOSSY_DUSK_STONE_BRICK_WALL.get());
             event.accept(ScalarUtilsBlocks.LIMINAL_TILES.get());
             event.accept(ScalarUtilsBlocks.BRIGHT_LIMINAL_TILES.get());
             event.accept(ScalarUtilsBlocks.LIMINAL_VOID.get());

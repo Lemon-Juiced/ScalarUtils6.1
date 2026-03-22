@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "scalarutils:dusk_stone_bricks",
+    "minecraft:vine"
+  ],
+  "result": {
+    "id": "scalarutils:mossy_dusk_stone_bricks",
+    "count": 1
+  }
+}
+

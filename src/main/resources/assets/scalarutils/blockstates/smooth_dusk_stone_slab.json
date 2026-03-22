@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "scalarutils:block/smooth_dusk_stone_slab"
+    },
+    "type=double": {
+      "model": "scalarutils:block/smooth_dusk_stone"
+    },
+    "type=top": {
+      "model": "scalarutils:block/smooth_dusk_stone_slab_top"
+    }
+  }
+}
+

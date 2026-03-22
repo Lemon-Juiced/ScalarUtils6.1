@@ -1,0 +1,7 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "scalarutils:dusk_stone_upper_placed",
+  "step": "underground_decoration"
+}
+
