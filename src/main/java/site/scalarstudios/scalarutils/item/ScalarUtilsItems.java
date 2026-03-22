@@ -15,7 +15,6 @@ import site.scalarstudios.scalarutils.item.custom.GlueItem;
 import site.scalarstudios.scalarutils.item.custom.SawItem;
 import site.scalarstudios.scalarutils.item.custom.StormHornItem;
 
-
 public class ScalarUtilsItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ScalarUtils.MODID);
 
