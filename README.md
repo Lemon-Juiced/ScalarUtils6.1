@@ -1,9 +1,9 @@
 # Scalar Utils 6.1
-***The Revival of Scalar Utils for Minecraft 1.21.11***
+***The Revival of Scalar Utils for Minecraft 26.1+***
 
 As per usual, this version of Scalar Utils differs from its predecessors reviving some old favorite ideas and adding some new additions to the mix as well.
 
-Scalar Utils 6.1 brings a fresh revival of the classic Scalar Utils experience to Minecraft 1.21.11, blending nostalgic ideas with brand-new content. This update expands your world with unique materials, atmospheric building blocks, and powerful late-game gear, all while keeping the mod’s original spirit intact. Whether you're exploring new ores or crafting advanced equipment, Scalar Utils adds depth without straying too far from vanilla balance.
+Scalar Utils 6.1 brings a fresh revival of the classic Scalar Utils experience to Minecraft 26.1+, blending nostalgic ideas with brand-new content. This update expands your world with unique materials, atmospheric building blocks, and powerful late-game gear, all while keeping the mod’s original spirit intact. Whether you're exploring new ores or crafting advanced equipment, Scalar Utils adds depth without straying too far from vanilla balance.
 
 From eerie liminal-themed blocks to powerful Umbralite upgrades, this version is packed with both aesthetic and functional additions. You’ll find new tools, resources, and quality-of-life recipes that make progression smoother and more rewarding. Scalar Utils 6.1 is designed for players who want more variety, more utility, and a touch of mystery in their Minecraft worlds.
 

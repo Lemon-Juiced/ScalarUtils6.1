@@ -8,7 +8,7 @@ version="${mod_version}"
 displayName="${mod_name}"
 logoFile="scalarutils6.png"
 authors="Lemon_Juiced, TechDahTurtle"
-description='''The Revival of Scalar Utils for Minecraft 1.21.11'''
+description='''The Revival of Scalar Utils for Minecraft 26.1+'''
 
 # Dependencies
 [[dependencies.${mod_id}]]
