@@ -14,6 +14,7 @@ public class GlueItem extends Item {
         super(properties);
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> tooltipAdder, TooltipFlag flag) {
         tooltipAdder.accept(Component.translatable("tooltip.scalarutils.glue").withStyle(ChatFormatting.GREEN));

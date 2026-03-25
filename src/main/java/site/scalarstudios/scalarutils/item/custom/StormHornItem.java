@@ -36,27 +36,27 @@ public class StormHornItem extends Item {
         }
 
         if (serverLevel.dimension() != Level.OVERWORLD) {
-            player.displayClientMessage(Component.translatable("message.scalarutils.storm_horn.invalid_dimension"), true);
+            player.sendSystemMessage(Component.translatable("message.scalarutils.storm_horn.invalid_dimension"));
             return InteractionResult.FAIL;
         }
 
         if (player.getCooldowns().isOnCooldown(heldItem)) {
-            player.displayClientMessage(Component.translatable("message.scalarutils.storm_horn.cooldown"), true);
+            player.sendSystemMessage(Component.translatable("message.scalarutils.storm_horn.cooldown"));
             return InteractionResult.FAIL;
         }
 
         Holder.Reference<SoundEvent> soundEvent;
         if (player.isShiftKeyDown()) {
-            serverLevel.setWeatherParameters(0, WEATHER_TICKS, true, true);
-            player.displayClientMessage(Component.translatable("message.scalarutils.storm_horn.thunder"), true);
+            serverLevel.getServer().setWeatherParameters(0, WEATHER_TICKS, true, true);
+            player.sendSystemMessage(Component.translatable("message.scalarutils.storm_horn.thunder"));
             soundEvent = SoundEvents.GOAT_HORN_SOUND_VARIANTS.get(2);
         } else if (serverLevel.isRaining() || serverLevel.isThundering()) {
-            serverLevel.setWeatherParameters(CLEAR_WEATHER_TICKS, 0, false, false);
-            player.displayClientMessage(Component.translatable("message.scalarutils.storm_horn.clear"), true);
+            serverLevel.getServer().setWeatherParameters(CLEAR_WEATHER_TICKS, 0, false, false);
+            player.sendSystemMessage(Component.translatable("message.scalarutils.storm_horn.clear"));
             soundEvent = SoundEvents.GOAT_HORN_SOUND_VARIANTS.getFirst();
         } else {
-            serverLevel.setWeatherParameters(0, WEATHER_TICKS, true, false);
-            player.displayClientMessage(Component.translatable("message.scalarutils.storm_horn.rain"), true);
+            serverLevel.getServer().setWeatherParameters(0, WEATHER_TICKS, true, false);
+            player.sendSystemMessage(Component.translatable("message.scalarutils.storm_horn.rain"));
             soundEvent = SoundEvents.GOAT_HORN_SOUND_VARIANTS.get(1);
         }
 
@@ -66,6 +66,7 @@ public class StormHornItem extends Item {
         return InteractionResult.SUCCESS;
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     public void appendHoverText(ItemStack stack, TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> tooltipAdder, TooltipFlag flag) {
         tooltipAdder.accept(Component.translatable("tooltip.scalarutils.storm_horn.primary").withStyle(ChatFormatting.AQUA));
