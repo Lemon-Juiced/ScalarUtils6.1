@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "scalarutils:umbralite_spear"
+    "scalarutils:umbralite_spear",
+    "scalarutils:ignition_spear"
   ]
 }
 

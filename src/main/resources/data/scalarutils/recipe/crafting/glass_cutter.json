@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  i",
+    " /I",
+    "/  "
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "/": "minecraft:stick",
+    "I": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "scalarutils:glass_cutter",
+    "count": 1
+  }
+}

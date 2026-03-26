@@ -14,13 +14,16 @@ From eerie liminal-themed blocks to powerful Umbralite upgrades, this version is
 - Liminal Tiles, Bright Liminal variants, and Void blocks
 - Chelite & Pelagium ore tiers (with raw, depleted, and block forms)
 - Penumbral Ore and Umbral Shard storage blocks
+- Red Diamond Ore and Red Diamond Block for a new high-tier resource
 
 ### Gear & Progression
 - Umbralite Tools (upgrade from Netherite)
+- Ignition Weapons (weapons with that ignite enemies on hit)
 - New smithing template and crafting components
 - Mail item for crafting chainmail armor
 
 ### Utility Items
+- Glass Cutter for silk touch glass harvesting
 - Storm Horn to control weather
 - Eclipse Bell to switch between day and night
 - Saws with high durability for long-term use

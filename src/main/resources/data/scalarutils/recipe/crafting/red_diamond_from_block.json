@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "scalarutils:red_diamond_block"
+  ],
+  "result": {
+    "id": "scalarutils:red_diamond",
+    "count": 9
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "#c:ores/red_diamond",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "result": {
+    "id": "scalarutils:red_diamond"
+  }
+}

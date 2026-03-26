@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "scalarutils:umbralite_sword"
+    "scalarutils:umbralite_sword",
+    "scalarutils:ignition_sword"
   ]
 }
 

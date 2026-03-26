@@ -57,11 +57,13 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsBlocks.PELAGIUM_BLOCK.get());
             event.accept(ScalarUtilsBlocks.UMBRALITE_BLOCK.get());
             event.accept(ScalarUtilsBlocks.UMBRAL_SHARD_BLOCK.get());
+            event.accept(ScalarUtilsBlocks.RED_DIAMOND_BLOCK.get());
             event.accept(ScalarUtilsBlocks.CHELITE_ORE.get());
             event.accept(ScalarUtilsBlocks.DEEPSLATE_CHELITE_ORE.get());
             event.accept(ScalarUtilsBlocks.PELAGIUM_ORE.get());
             event.accept(ScalarUtilsBlocks.DEEPSLATE_PELAGIUM_ORE.get());
             event.accept(ScalarUtilsBlocks.PENUMBRAL_ORE.get());
+            event.accept(ScalarUtilsBlocks.RED_DIAMOND_ORE.get());
             event.accept(ScalarUtilsBlocks.RAW_CHELITE_BLOCK.get());
             event.accept(ScalarUtilsBlocks.RAW_PELAGIUM_BLOCK.get());
         } else if (event.getTab() == SCALARUTILS_FOOD_TAB.get()) {
@@ -76,6 +78,7 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsItems.RAW_PELAGIUM.get());
             event.accept(ScalarUtilsItems.CHELITE_INGOT.get());
             event.accept(ScalarUtilsItems.PELAGIUM_INGOT.get());
+            event.accept(ScalarUtilsItems.RED_DIAMOND.get());
             event.accept(ScalarUtilsItems.TESTUDINE_INGOT.get());
             event.accept(ScalarUtilsItems.UMBRALITE_INGOT.get());
             event.accept(ScalarUtilsItems.UMBRAL_SHARD.get());
@@ -96,6 +99,10 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsItems.DIAMOND_SAW.get());
             event.accept(ScalarUtilsItems.NETHERITE_SAW.get());
             event.accept(ScalarUtilsItems.UMBRALITE_SAW.get());
+            event.accept(ScalarUtilsItems.IGNITION_SWORD.get());
+            event.accept(ScalarUtilsItems.IGNITION_AXE.get());
+            event.accept(ScalarUtilsItems.IGNITION_SPEAR.get());
+            event.accept(ScalarUtilsItems.GLASS_CUTTER.get());
             event.accept(ScalarUtilsItems.STORM_HORN.get());
             event.accept(ScalarUtilsItems.ECLIPSE_BELL.get());
         }

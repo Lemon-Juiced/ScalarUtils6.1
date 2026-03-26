@@ -16,20 +16,27 @@
     "scalarutils:mossy_dusk_stone_brick_slab",
     "scalarutils:mossy_dusk_stone_brick_stairs",
     "scalarutils:mossy_dusk_stone_brick_wall",
+
     "scalarutils:liminal_tiles",
     "scalarutils:bright_liminal_tiles",
+
     "scalarutils:liminal_void",
     "scalarutils:bright_liminal_void",
-    "scalarutils:penumbral_ore",
+
+    "scalarutils:chelite_block",
+    "scalarutils:pelagium_block",
+    "scalarutils:red_diamond_block",
     "scalarutils:umbral_shard_block",
     "scalarutils:umbralite_block",
+
     "scalarutils:chelite_ore",
     "scalarutils:deepslate_chelite_ore",
-    "scalarutils:chelite_block",
-    "scalarutils:raw_chelite_block",
     "scalarutils:pelagium_ore",
     "scalarutils:deepslate_pelagium_ore",
-    "scalarutils:pelagium_block",
+    "scalarutils:penumbral_ore",
+    "scalarutils:red_diamond_ore",
+
+    "scalarutils:raw_chelite_block",
     "scalarutils:raw_pelagium_block"
   ],
   "replace": false

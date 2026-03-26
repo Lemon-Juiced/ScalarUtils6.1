@@ -1,0 +1,22 @@
+package site.scalarstudios.scalarutils.item.custom;
+
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.component.TooltipDisplay;
+
+import java.util.function.Consumer;
+
+public class IgnitionWeaponItem extends Item implements Ignitable {
+    public IgnitionWeaponItem(Properties properties) {
+        super(properties);
+    }
+
+    @SuppressWarnings("deprecation")
+    @Override
+    public void appendHoverText(ItemStack stack, TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> tooltipAdder, TooltipFlag flag) {
+        addIgnitionTooltip(tooltipAdder);
+    }
+}
+

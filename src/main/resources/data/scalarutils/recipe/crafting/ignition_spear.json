@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  i",
+    " / ",
+    "/  "
+  ],
+  "key": {
+    "i": "#c:gems/red_diamond",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "scalarutils:ignition_spear",
+    "count": 1
+  }
+}
