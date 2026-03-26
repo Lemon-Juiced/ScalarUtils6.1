@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "scalarutils:umbralite_smithing_template",
+  "base": "minecraft:netherite_boots",
+  "addition": "scalarutils:umbralite_ingot",
+  "result": {
+    "id": "scalarutils:umbralite_boots"
+  }
+}
+

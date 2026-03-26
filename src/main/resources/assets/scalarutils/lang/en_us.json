@@ -67,6 +67,12 @@
   "item.scalarutils.umbralite_shovel": "Umbralite Shovel",
   "item.scalarutils.umbralite_hoe": "Umbralite Hoe",
   "item.scalarutils.umbralite_spear": "Umbralite Spear",
+
+  "item.scalarutils.umbralite_helmet": "Umbralite Helmet",
+  "item.scalarutils.umbralite_chestplate": "Umbralite Chestplate",
+  "item.scalarutils.umbralite_leggings": "Umbralite Leggings",
+  "item.scalarutils.umbralite_boots": "Umbralite Boots",
+
   "item.scalarutils.wooden_saw": "Wooden Saw",
   "item.scalarutils.stone_saw": "Stone Saw",
   "item.scalarutils.copper_saw": "Copper Saw",

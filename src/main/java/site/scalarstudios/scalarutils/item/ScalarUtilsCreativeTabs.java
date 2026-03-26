@@ -91,6 +91,10 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsItems.UMBRALITE_SHOVEL.get());
             event.accept(ScalarUtilsItems.UMBRALITE_HOE.get());
             event.accept(ScalarUtilsItems.UMBRALITE_SPEAR.get());
+            event.accept(ScalarUtilsItems.UMBRALITE_HELMET.get());
+            event.accept(ScalarUtilsItems.UMBRALITE_CHESTPLATE.get());
+            event.accept(ScalarUtilsItems.UMBRALITE_LEGGINGS.get());
+            event.accept(ScalarUtilsItems.UMBRALITE_BOOTS.get());
             event.accept(ScalarUtilsItems.WOODEN_SAW.get());
             event.accept(ScalarUtilsItems.STONE_SAW.get());
             event.accept(ScalarUtilsItems.COPPER_SAW.get());

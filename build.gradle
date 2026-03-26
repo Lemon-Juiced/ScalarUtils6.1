@@ -78,7 +78,7 @@ dependencies {
     implementation "curse.maven:scalar-core-1112771:7809174" // Scalar Core
 
     // QoL For Testing
-    //implementation "curse.maven:jade-324717:7742809" // Jade
+    implementation "curse.maven:jade-324717:7815579"
     //implementation "curse.maven:jei-238222:7428957" // JEI
 }
 

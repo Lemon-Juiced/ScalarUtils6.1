@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "scalarutils:umbralite"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "scalarutils:umbralite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "scalarutils:umbralite"
+      }
+    ]
+  }
+}
