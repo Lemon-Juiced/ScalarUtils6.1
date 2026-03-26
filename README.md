@@ -17,7 +17,7 @@ From eerie liminal-themed blocks to powerful Umbralite upgrades, this version is
 - Red Diamond Ore and Red Diamond Block for a new high-tier resource
 
 ### Gear & Progression
-- Umbralite Tools (upgrade from Netherite)
+- Umbralite Armor & Tools (upgrade from Netherite)
 - Ignition Weapons (weapons with that ignite enemies on hit)
 - New smithing template and crafting components
 - Mail item for crafting chainmail armor
