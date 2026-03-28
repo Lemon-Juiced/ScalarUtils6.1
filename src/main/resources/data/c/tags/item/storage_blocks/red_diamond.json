@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "scalarutils:red_diamond_block"
   ]

@@ -14,7 +14,6 @@ import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 @EventBusSubscriber(modid = ScalarUtils.MODID, value = Dist.CLIENT)
 public class ScalarUtilsClient {
     public ScalarUtilsClient(ModContainer container) {
-
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
     }
 

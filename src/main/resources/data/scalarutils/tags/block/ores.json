@@ -1,7 +1,9 @@
 {
+  "replace": false,
   "values": [
-    "#scalarutils:ores/chelite",
-    "#scalarutils:ores/pelagium",
-    "#scalarutils:ores/penumbral"
+    "#c:ores/chelite",
+    "#c:ores/pelagium",
+    "#c:ores/penumbral",
+    "#c:ores/red_diamond"
   ]
 }

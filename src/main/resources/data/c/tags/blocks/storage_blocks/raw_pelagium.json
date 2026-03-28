@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "scalarutils:raw_pelagium_block"
   ]

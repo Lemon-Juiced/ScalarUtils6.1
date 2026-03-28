@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "scalarutils:dusk_stone",
     "scalarutils:smooth_dusk_stone",
@@ -38,6 +39,5 @@
 
     "scalarutils:raw_chelite_block",
     "scalarutils:raw_pelagium_block"
-  ],
-  "replace": false
+  ]
 }
