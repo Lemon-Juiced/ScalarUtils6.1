@@ -1,17 +1,17 @@
 {
   "replace": false,
   "values": [
-    "scalarutils:chelite_block",
     "scalarutils:pelagium_block",
     "scalarutils:red_diamond_block",
+    "scalarutils:verdite_block",
 
-    "scalarutils:chelite_ore",
-    "scalarutils:deepslate_chelite_ore",
     "scalarutils:pelagium_ore",
     "scalarutils:deepslate_pelagium_ore",
     "scalarutils:red_diamond_ore",
+    "scalarutils:verdite_ore",
+    "scalarutils:deepslate_verdite_ore",
 
-    "scalarutils:raw_chelite_block",
-    "scalarutils:raw_pelagium_block"
+    "scalarutils:raw_pelagium_block",
+    "scalarutils:raw_verdite_block"
   ]
 }

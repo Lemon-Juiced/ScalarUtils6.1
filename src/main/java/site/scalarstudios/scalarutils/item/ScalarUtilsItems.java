@@ -6,7 +6,6 @@ import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ToolMaterial;
-import net.minecraft.world.item.equipment.ArmorMaterials;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -24,17 +23,21 @@ public class ScalarUtilsItems {
     public static final DeferredItem<Item> MAIL = ITEMS.registerSimpleItem("mail");
     public static final DeferredItem<Item> UMBRALITE_SMITHING_TEMPLATE = ITEMS.registerSimpleItem("umbralite_smithing_template");
 
-    /* Resources */
-    public static final DeferredItem<Item> RAW_CHELITE = ITEMS.registerSimpleItem("raw_chelite");
+    /* Raw Resources */
     public static final DeferredItem<Item> RAW_PELAGIUM = ITEMS.registerSimpleItem("raw_pelagium");
-    public static final DeferredItem<Item> CHELITE_INGOT = ITEMS.registerSimpleItem("chelite_ingot");
+    public static final DeferredItem<Item> RAW_VERDITE = ITEMS.registerSimpleItem("raw_verdite");
+
+    /* Resources */
     public static final DeferredItem<Item> PELAGIUM_INGOT = ITEMS.registerSimpleItem("pelagium_ingot");
+    public static final DeferredItem<Item> VERDITE_INGOT = ITEMS.registerSimpleItem("verdite_ingot");
     public static final DeferredItem<Item> RED_DIAMOND = ITEMS.registerSimpleItem("red_diamond");
     public static final DeferredItem<Item> TESTUDINE_INGOT = ITEMS.registerSimpleItem("testudine_ingot");
     public static final DeferredItem<Item> UMBRALITE_INGOT = ITEMS.registerSimpleItem("umbralite_ingot");
     public static final DeferredItem<Item> UMBRAL_SHARD = ITEMS.registerSimpleItem("umbral_shard");
-    public static final DeferredItem<Item> CHELITE_DUST = ITEMS.registerSimpleItem("chelite_dust"); // This is for cross-mod integration
+
+    /* Dusts */
     public static final DeferredItem<Item> PELAGIUM_DUST = ITEMS.registerSimpleItem("pelagium_dust"); // This is for cross-mod integration
+    public static final DeferredItem<Item> VERDITE_DUST = ITEMS.registerSimpleItem("verdite_dust"); // This is for cross-mod integration
 
     /* Food Items */
     public static final DeferredItem<Item> BOILED_EGG = ITEMS.registerSimpleItem("boiled_egg", p -> p.food(new FoodProperties.Builder().nutrition(4).saturationModifier(0.5F).build()));

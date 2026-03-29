@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ingots/chelite",
     "#c:ingots/pelagium",
     "#c:ingots/testudine",
-    "#c:ingots/umbralite"
+    "#c:ingots/umbralite",
+    "#c:ingots/verdite"
   ]
 }

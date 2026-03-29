@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#c:raw_materials/chelite",
-    "#c:raw_materials/pelagium"
+    "#c:raw_materials/pelagium",
+    "#c:raw_materials/verdite"
   ]
 }

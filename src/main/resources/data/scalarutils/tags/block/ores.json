@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#c:ores/chelite",
     "#c:ores/pelagium",
     "#c:ores/penumbral",
-    "#c:ores/red_diamond"
+    "#c:ores/red_diamond",
+    "#c:ores/verdite"
   ]
 }

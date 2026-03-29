@@ -48,23 +48,23 @@ public class ScalarUtilsBlocks {
     public static final DeferredBlock<Block> BRIGHT_LIMINAL_VOID = registerBlock("bright_liminal_void", properties -> properties.strength(2.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 15).mapColor(MapColor.COLOR_BLACK));
 
     // Resource Blocks
-    public static final DeferredBlock<Block> CHELITE_BLOCK = registerBlock("chelite_block", properties -> properties.strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.IRON).mapColor(MapColor.COLOR_BLUE));
+    public static final DeferredBlock<Block> VERDITE_BLOCK = registerBlock("verdite_block", properties -> properties.strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.IRON).mapColor(MapColor.COLOR_BLUE));
     public static final DeferredBlock<Block> PELAGIUM_BLOCK = registerBlock("pelagium_block", properties -> properties.strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.IRON).mapColor(MapColor.COLOR_BLUE));
     public static final DeferredBlock<Block> RED_DIAMOND_BLOCK = registerBlock("red_diamond_block", properties -> properties.strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).mapColor(MapColor.COLOR_RED));
     public static final DeferredBlock<Block> UMBRALITE_BLOCK = registerBlock("umbralite_block", properties -> properties.strength(50.0F, 1200.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 5).mapColor(MapColor.COLOR_PURPLE));
     public static final DeferredBlock<Block> UMBRAL_SHARD_BLOCK = registerBlock("umbral_shard_block", properties -> properties.strength(50.0F, 1200.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 5).mapColor(MapColor.COLOR_PURPLE));
 
     // Ores
-    public static final DeferredBlock<DropExperienceBlock> CHELITE_ORE = registerBlock("chelite_ore",properties -> new DropExperienceBlock(UniformInt.of(2, 4), properties), properties -> properties.strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).mapColor(MapColor.STONE));
-    public static final DeferredBlock<DropExperienceBlock> DEEPSLATE_CHELITE_ORE = registerBlock("deepslate_chelite_ore", properties -> new DropExperienceBlock(UniformInt.of(2, 4), properties), properties -> properties.strength(4.5F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE).mapColor(MapColor.DEEPSLATE));
     public static final DeferredBlock<DropExperienceBlock> PELAGIUM_ORE = registerBlock("pelagium_ore",properties -> new DropExperienceBlock(UniformInt.of(2, 4), properties), properties -> properties.strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).mapColor(MapColor.STONE));
     public static final DeferredBlock<DropExperienceBlock> DEEPSLATE_PELAGIUM_ORE = registerBlock("deepslate_pelagium_ore", properties -> new DropExperienceBlock(UniformInt.of(2, 4), properties), properties -> properties.strength(4.5F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE).mapColor(MapColor.DEEPSLATE));
     public static final DeferredBlock<DropExperienceBlock> PENUMBRAL_ORE = registerBlock("penumbral_ore", properties -> new DropExperienceBlock(UniformInt.of(2, 4), properties), properties -> properties.strength(30.0F, 1200.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 5).mapColor(MapColor.SAND));
     public static final DeferredBlock<DropExperienceBlock> RED_DIAMOND_ORE = registerBlock("red_diamond_ore", properties -> new DropExperienceBlock(UniformInt.of(2, 4), properties), properties -> properties.strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).mapColor(MapColor.NETHER));
+    public static final DeferredBlock<DropExperienceBlock> VERDITE_ORE = registerBlock("verdite_ore",properties -> new DropExperienceBlock(UniformInt.of(2, 4), properties), properties -> properties.strength(3.0F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.STONE).mapColor(MapColor.STONE));
+    public static final DeferredBlock<DropExperienceBlock> DEEPSLATE_VERDITE_ORE = registerBlock("deepslate_verdite_ore", properties -> new DropExperienceBlock(UniformInt.of(2, 4), properties), properties -> properties.strength(4.5F, 3.0F).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE).mapColor(MapColor.DEEPSLATE));
 
     // Raw Resource Blocks
-    public static final DeferredBlock<Block> RAW_CHELITE_BLOCK = registerBlock("raw_chelite_block", properties -> properties.strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.IRON).mapColor(MapColor.COLOR_BLUE));
     public static final DeferredBlock<Block> RAW_PELAGIUM_BLOCK = registerBlock("raw_pelagium_block", properties -> properties.strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.IRON).mapColor(MapColor.COLOR_BLUE));
+    public static final DeferredBlock<Block> RAW_VERDITE_BLOCK = registerBlock("raw_verdite_block", properties -> properties.strength(5.0F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.IRON).mapColor(MapColor.COLOR_BLUE));
 
     private static DeferredBlock<Block> registerBlock(String name, UnaryOperator<BlockBehaviour.Properties> properties) {
         return registerBlock(name, Block::new, properties);

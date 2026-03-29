@@ -33,6 +33,7 @@ public class ScalarUtilsCreativeTabs {
 
     public static void registerTabs(BuildCreativeModeTabContentsEvent event) {
         if (event.getTab() == SCALARUTILS_BLOCKS_TAB.get()) {
+            // Dusk Stones
             event.accept(ScalarUtilsBlocks.DUSK_STONE.get());
             event.accept(ScalarUtilsBlocks.SMOOTH_DUSK_STONE.get());
             event.accept(ScalarUtilsBlocks.DUSK_STONE_SLAB.get());
@@ -49,41 +50,58 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsBlocks.MOSSY_DUSK_STONE_BRICK_SLAB.get());
             event.accept(ScalarUtilsBlocks.MOSSY_DUSK_STONE_BRICK_STAIRS.get());
             event.accept(ScalarUtilsBlocks.MOSSY_DUSK_STONE_BRICK_WALL.get());
+
+            // Liminal Tiles
             event.accept(ScalarUtilsBlocks.LIMINAL_TILES.get());
             event.accept(ScalarUtilsBlocks.BRIGHT_LIMINAL_TILES.get());
+
+            // Liminal Voids
             event.accept(ScalarUtilsBlocks.LIMINAL_VOID.get());
             event.accept(ScalarUtilsBlocks.BRIGHT_LIMINAL_VOID.get());
-            event.accept(ScalarUtilsBlocks.CHELITE_BLOCK.get());
+
+            // Resource Blocks
             event.accept(ScalarUtilsBlocks.PELAGIUM_BLOCK.get());
             event.accept(ScalarUtilsBlocks.UMBRALITE_BLOCK.get());
             event.accept(ScalarUtilsBlocks.UMBRAL_SHARD_BLOCK.get());
             event.accept(ScalarUtilsBlocks.RED_DIAMOND_BLOCK.get());
-            event.accept(ScalarUtilsBlocks.CHELITE_ORE.get());
-            event.accept(ScalarUtilsBlocks.DEEPSLATE_CHELITE_ORE.get());
+            event.accept(ScalarUtilsBlocks.VERDITE_BLOCK.get());
+
+            // Ores
             event.accept(ScalarUtilsBlocks.PELAGIUM_ORE.get());
             event.accept(ScalarUtilsBlocks.DEEPSLATE_PELAGIUM_ORE.get());
             event.accept(ScalarUtilsBlocks.PENUMBRAL_ORE.get());
             event.accept(ScalarUtilsBlocks.RED_DIAMOND_ORE.get());
-            event.accept(ScalarUtilsBlocks.RAW_CHELITE_BLOCK.get());
+            event.accept(ScalarUtilsBlocks.VERDITE_ORE.get());
+            event.accept(ScalarUtilsBlocks.DEEPSLATE_VERDITE_ORE.get());
+
+            // Raw Resource Blocks
             event.accept(ScalarUtilsBlocks.RAW_PELAGIUM_BLOCK.get());
+            event.accept(ScalarUtilsBlocks.RAW_VERDITE_BLOCK.get());
         } else if (event.getTab() == SCALARUTILS_FOOD_TAB.get()) {
             event.accept(ScalarUtilsItems.BOILED_EGG.get());
             event.accept(ScalarUtilsItems.TOAST.get());
         } else if (event.getTab() == SCALARUTILS_ITEMS_TAB.get()) {
+            /* Crafting Items */
             event.accept(ScalarUtilsItems.FLOUR.get());
             event.accept(ScalarUtilsItems.GLUE.get());
             event.accept(ScalarUtilsItems.MAIL.get());
             event.accept(ScalarUtilsItems.UMBRALITE_SMITHING_TEMPLATE.get());
-            event.accept(ScalarUtilsItems.RAW_CHELITE.get());
+
+            /* Raw Resources */
             event.accept(ScalarUtilsItems.RAW_PELAGIUM.get());
-            event.accept(ScalarUtilsItems.CHELITE_INGOT.get());
+            event.accept(ScalarUtilsItems.RAW_VERDITE.get());
+
+            /* Resources */
             event.accept(ScalarUtilsItems.PELAGIUM_INGOT.get());
             event.accept(ScalarUtilsItems.RED_DIAMOND.get());
             event.accept(ScalarUtilsItems.TESTUDINE_INGOT.get());
             event.accept(ScalarUtilsItems.UMBRALITE_INGOT.get());
             event.accept(ScalarUtilsItems.UMBRAL_SHARD.get());
-            event.accept(ScalarUtilsItems.CHELITE_DUST.get());
+            event.accept(ScalarUtilsItems.VERDITE_INGOT.get());
+
+            /* Dusts */
             event.accept(ScalarUtilsItems.PELAGIUM_DUST.get());
+            event.accept(ScalarUtilsItems.VERDITE_DUST.get());
         } else if (event.getTab() == SCALARUTILS_TOOLS_TAB.get()) {
             event.accept(ScalarUtilsItems.UMBRALITE_SWORD.get());
             event.accept(ScalarUtilsItems.UMBRALITE_PICKAXE.get());

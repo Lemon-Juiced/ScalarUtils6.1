@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "#c:dusts/verdite",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "result": {
+    "id": "scalarutils:verdite_ingot"
+  }
+}

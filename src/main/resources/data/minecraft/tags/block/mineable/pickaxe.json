@@ -24,20 +24,20 @@
     "scalarutils:liminal_void",
     "scalarutils:bright_liminal_void",
 
-    "scalarutils:chelite_block",
     "scalarutils:pelagium_block",
     "scalarutils:red_diamond_block",
     "scalarutils:umbral_shard_block",
     "scalarutils:umbralite_block",
+    "scalarutils:verdite_block",
 
-    "scalarutils:chelite_ore",
-    "scalarutils:deepslate_chelite_ore",
     "scalarutils:pelagium_ore",
     "scalarutils:deepslate_pelagium_ore",
     "scalarutils:penumbral_ore",
     "scalarutils:red_diamond_ore",
+    "scalarutils:verdite_ore",
+    "scalarutils:deepslate_verdite_ore",
 
-    "scalarutils:raw_chelite_block",
-    "scalarutils:raw_pelagium_block"
+    "scalarutils:raw_pelagium_block",
+    "scalarutils:raw_verdite_block"
   ]
 }

@@ -12,7 +12,7 @@ From eerie liminal-themed blocks to powerful Umbralite upgrades, this version is
 ### New Blocks & Materials
 - Full Dusk Stone block set (including stairs, slabs, walls, and more)
 - Liminal Tiles, Bright Liminal variants, and Void blocks
-- Chelite & Pelagium ore tiers (with raw, depleted, and block forms)
+- Pelagium & Verdite ore tiers (with raw, depleted, and block forms)
 - Penumbral Ore and Umbral Shard storage blocks
 - Red Diamond Ore and Red Diamond Block for a new high-tier resource
 
