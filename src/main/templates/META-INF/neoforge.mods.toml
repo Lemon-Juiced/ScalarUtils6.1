@@ -28,6 +28,6 @@ description='''The Revival of Scalar Utils for Minecraft 26.1+'''
 [[dependencies.${mod_id}]]
     modId="scalar_core"
     type="required"
-    versionRange="=[26.1-1.1.0,)"
+    versionRange="=[26.1.1-1.1.1,)"
     ordering="NONE"
     side="BOTH"
