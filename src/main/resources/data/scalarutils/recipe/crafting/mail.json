@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "minecraft:chain",
-    "minecraft:chain"
+    "minecraft:iron_chain",
+    "minecraft:iron_chain"
   ],
   "result": {
     "id": "scalarutils:mail",
