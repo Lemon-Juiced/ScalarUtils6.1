@@ -88,15 +88,17 @@
   "item.scalarutils.ignition_axe": "Ignition Axe",
   "item.scalarutils.ignition_spear": "Ignition Spear",
 
+  "item.scalarutils.cascadium_axe": "Cascadium Axe",
+  "item.scalarutils.eclipse_bell": "Eclipse Bell",
   "item.scalarutils.glass_cutter": "Glass Cutter",
   "item.scalarutils.storm_horn": "Storm Horn",
-  "item.scalarutils.eclipse_bell": "Eclipse Bell",
 
+  "tooltip.scalarutils.cascadium_axe": "Chops down a whole tree recursively from top to bottom",
+  "tooltip.scalarutils.eclipse_bell.primary": "Right-click: Toggle Day/Night",
   "tooltip.scalarutils.glue": "Slimeball Alternative",
   "tooltip.scalarutils.ignition_item": "Ignites enemies on hit",
   "tooltip.scalarutils.storm_horn.primary": "Right-click: Toggle Clear/Rain",
   "tooltip.scalarutils.storm_horn.secondary": "Shift + Right-click: Thunder",
-  "tooltip.scalarutils.eclipse_bell.primary": "Right-click: Toggle Day/Night",
 
   "message.scalarutils.storm_horn.clear": "Weather set to Clear",
   "message.scalarutils.storm_horn.rain": "Weather set to Rain",

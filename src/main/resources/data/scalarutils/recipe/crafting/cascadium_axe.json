@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii",
+    "i/",
+    " /"
+  ],
+  "key": {
+    "i": "#c:ingots/testudine",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "scalarutils:cascadium_axe",
+    "count": 1
+  }
+}
+

@@ -124,9 +124,10 @@ public class ScalarUtilsCreativeTabs {
             event.accept(ScalarUtilsItems.IGNITION_SWORD.get());
             event.accept(ScalarUtilsItems.IGNITION_AXE.get());
             event.accept(ScalarUtilsItems.IGNITION_SPEAR.get());
+            event.accept(ScalarUtilsItems.CASCADIUM_AXE.get());
+            event.accept(ScalarUtilsItems.ECLIPSE_BELL.get());
             event.accept(ScalarUtilsItems.GLASS_CUTTER.get());
             event.accept(ScalarUtilsItems.STORM_HORN.get());
-            event.accept(ScalarUtilsItems.ECLIPSE_BELL.get());
         }
     }
 

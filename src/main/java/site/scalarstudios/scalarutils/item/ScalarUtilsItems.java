@@ -72,8 +72,9 @@ public class ScalarUtilsItems {
     public static final DeferredItem<IgnitionWeaponItem> IGNITION_SPEAR = ITEMS.registerItem("ignition_spear", p -> new IgnitionWeaponItem(p.spear(ScalarUtilsToolMaterials.RED_DIAMOND, 1.15F, 1.2F, 0.4F, 2.5F, 7.0F, 5.5F, 5.1F, 8.75F, 4.6F)));
 
     /* Unique Tools */
-    public static final DeferredItem<GlassCutterItem> GLASS_CUTTER = ITEMS.registerItem("glass_cutter", GlassCutterItem::new);
+    public static final DeferredItem<CascadiumAxeItem> CASCADIUM_AXE = ITEMS.registerItem("cascadium_axe", p -> new CascadiumAxeItem(ScalarUtilsToolMaterials.CASCADIUM, 5.0F, -3.0F, p));
     public static final DeferredItem<EclipseBellItem> ECLIPSE_BELL = ITEMS.registerItem("eclipse_bell", EclipseBellItem::new);
+    public static final DeferredItem<GlassCutterItem> GLASS_CUTTER = ITEMS.registerItem("glass_cutter", GlassCutterItem::new);
     public static final DeferredItem<StormHornItem> STORM_HORN = ITEMS.registerItem("storm_horn", StormHornItem::new);
 
     public static void register(IEventBus eventBus) {
