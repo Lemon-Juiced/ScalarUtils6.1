@@ -78,8 +78,8 @@ dependencies {
     implementation "curse.maven:scalar-core-1112771:7906370" // Scalar Core
 
     // QoL For Testing
-    implementation "curse.maven:jade-324717:7903350" // Jade
-    implementation "curse.maven:jei-238222:7904641" // JEI
+    implementation "curse.maven:jade-324717:7938398" // Jade
+    implementation "curse.maven:jei-238222:8014757" // JEI
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
